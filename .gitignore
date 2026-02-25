@@ -1,0 +1,15 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# CLI config
+.terraform.lock.hcl
+
+# OS files
+.DS_Store
